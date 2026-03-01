@@ -23,8 +23,8 @@ function App() {
 
         try {
 
-            const response = await axios.post(
-                'http://127.0.0.1:8000/api/summarize/',
+           const response = await axios.post(
+    'https://gen-ai-x-rohit-3.onrender.com/api/summarize/',
                 formData,
                 { headers: { 'Content-Type': 'multipart/form-data' } }
             );
